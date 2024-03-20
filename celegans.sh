@@ -4,7 +4,7 @@
 eval "$(conda shell.bash hook)"
 
 # Define the output directory for SibeliaZ
-output_dir="/home/saadab/wga/sibeliaz/outputc"
+output_dir="/path/wga/sibeliaz/outputc"
 
 # Create a log file to store execution times
 log_file="$output_dir/execution_times.log"
@@ -19,8 +19,8 @@ conda activate sibeliaz
 echo "Step: Activate Conda Environment for SibeliaZ - Completed at $(date)" >> "$log_file"
 
 # Define paths to the input genome FASTA files
-genome1="/home/saadab/wga/genomes/celegans.fna"
-genome2="/home/saadab/wga/genomes/yeast.fna"
+genome1="/path/wga/genomes/celegans.fna"
+genome2="/path/wga/genomes/yeast.fna"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
