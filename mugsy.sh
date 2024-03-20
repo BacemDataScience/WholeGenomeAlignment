@@ -4,7 +4,7 @@
 eval "$(conda shell.bash hook)"
 
 # Define the output directory for Mugsy
-output_dir="/home/saadab/wga/mugsy/output"
+output_dir="/path/wga/mugsy/output"
 
 # Create a log file to store execution times
 log_file="$output_dir/execution_times.log"
@@ -18,8 +18,8 @@ conda activate mugsy_env  # Replace 'mugsy_env' with your Mugsy environment name
 echo "Step: Activate Conda Environment for Mugsy - Completed at $(date)" >> "$log_file"
 
 # Define paths to the input genome FASTA files
-genome1="/home/saadab/wga/genomes/human_genome1.fasta"
-genome2="/home/saadab/wga/genomes/human_genome2.fasta"
+genome1="/path/wga/genomes/human_genome1.fasta"
+genome2="/path/wga/genomes/human_genome2.fasta"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
