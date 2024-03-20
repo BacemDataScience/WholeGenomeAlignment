@@ -4,7 +4,7 @@
 eval "$(conda shell.bash hook)"
 
 # Define the output directory for DIALIGN-WGA
-dialign_wga_output_dir="/home/saadab/wga/dialign-wga/outputOKOK"
+dialign_wga_output_dir="/path/wga/dialign-wga/output"
 
 # Create a log file to store execution times
 log_file="$dialign_wga_output_dir/execution_times.log"
@@ -18,8 +18,8 @@ total_start_time=$(date +%s.%N)
 #echo "Step: Activate Conda Environment for DIALIGN-WGA - Completed at $(date)" >> "$log_file"
 
 # Define paths to the input genome FASTA files
-genome1="/home/saadab/wga/genomes/human_genome1.fasta"
-genome2="/home/saadab/wga/genomes/human_genome2.fasta"
+genome1="/path/wga/genomes/human_genome1.fasta"
+genome2="/path/wga/genomes/human_genome2.fasta"
 
 # Combine the genomes into a single file for DIALIGN
 #combined_genome="$dialign_wga_output_dir/combined_genomes.fasta"
