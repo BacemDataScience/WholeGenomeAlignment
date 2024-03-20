@@ -4,7 +4,7 @@
 eval "$(conda shell.bash hook)"
 
 # Define the output directory for Minimap2
-output_dir="/home/saadab/wga/minimap2/outputc"
+output_dir="/path/wga/minimap2/outputc"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
@@ -22,8 +22,8 @@ conda activate minimap2  # Replace 'minimap2_env' with your Minimap2 environment
 echo "Step: Activate Conda Environment for Minimap2 - Completed at $(date)" >> "$log_file"
 
 # Define paths to the input genome FASTA files
-genome1="/home/saadab/wga/genomes/celegans.fna"
-genome2="/home/saadab/wga/genomes/yeast.fna"
+genome1="/path/wga/genomes/celegans.fna"
+genome2="/path/wga/genomes/yeast.fna"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
