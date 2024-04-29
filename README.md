@@ -1,1 +1,3 @@
 To evaluate the effectiveness of the different classes of nomic alignment tools under varies conditions, we conducted a study using MUMmer4 (Suffix tree based method), Sibeliaz (Graph based method), Dialign2 (anchor based method), and Minimap2 (anchor based method). The analyses involved two sets of genomes: human genomes (exhibiting high similarity) and those of Caenorhabditis elegans (C. elegans) and Saccharomyces cerevisiae (Baker's yeast), representing species with considerable evolutionary divergence. Our analyses were conducted on a server equipped with dual E5-2699 v4 processors and 512GB of RAM which is running on CentOS 7.
+We added a comparaison between a human and mouse genome 
+We integrated two new tools: Progressive Cactus and GraphAligner
