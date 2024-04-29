@@ -1,0 +1,4 @@
+nohup sh -c 'time sudo docker run -v ./genomes:/data/genomes \
+1779      -v ./output:/data/output \
+1780      quay.io/comparative-genomics-toolkit/cactus:v2.8.0 \
+1781      /bin/bash -c "rm -rf /data/output/jobStore && mkdir -p /data/output/workDir && cactus-pangenome /data/output/jobStore /data/genomes/seqFile.txt --reference simHuman1 --outDir /data/output --outName alignment --workDir /data/output/workDir --maxDisk 500G --maxCores 20"' > cactus_output_and_time.log 2>&1 &
