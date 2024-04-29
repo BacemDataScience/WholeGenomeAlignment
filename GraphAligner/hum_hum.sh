@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Paths to the input genomes
-human_genome1="/home/saadab/wga/genomes/human_genome1.fasta"
-human_genome2="/home/saadab/wga/genomes/human_genome2.fasta"
+human_genome1="./wga/genomes/human_genome1.fasta"
+human_genome2="./genomes/human_genome2.fasta"
 
 # Output directory
-output_dir="/home/saadab/wga/graph/humanVShuman"
+output_dir="./wga/graph/humanVShuman"
 mkdir -p "${output_dir}"
 
 # Log file for execution times and script output
